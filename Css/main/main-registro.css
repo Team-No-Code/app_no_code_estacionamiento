@@ -1,0 +1,113 @@
+.main_registro {
+    display: flex;
+    justify-content: center;
+    font-family: 'Gemunu Libre', sans-serif;
+    color: aliceblue;
+    font-weight: 300;
+}
+
+.main__container__registro {
+    height: 35rem;
+    width: 452px;
+    background-color: rgb(4, 141, 187);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box__main__registro {
+    width: 275px;
+    background-color: rgb(59, 54, 54);
+    display: flex;
+    border-radius: 8px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__profile__foto {
+    margin-top: 1.5rem;
+
+}
+
+.box__main__profile_boton {
+    width: 250px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.main__profile__registro {
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+}
+
+/*Botones pagina registro subir y borrar foto*/
+.main__boton__subirfoto {
+    align-items: center;
+    border-radius: 3px;
+    background: rgb(6, 142, 232);
+    border: 1px solid aliceblue;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    height: 1.5rem;
+    padding: 1%;
+    width: 3.5rem;
+    font-size: .5rem;
+}
+
+/*Campos de Registro pagina registro*/
+.box__campos_registro {
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    width: 75%;
+    align-items: center;
+}
+
+/*texto de los titulos de los campos*/
+.title_field {
+    font-size: small;
+    color: aliceblue;
+    margin: 2%;
+}
+
+.title_field_condiciones {
+    text-align: center;
+    width: 100%;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 0.8rem;
+    margin-top: 5%;
+}
+
+.boton__radio {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+/*texto de los botones*/
+.boton__fields {
+    margin: 2%;
+    width: 35%;
+    height: 1.5rem;
+    font-size: 0.75rem;
+}
+
+.boton__fields__dominio {
+    margin: 5%;
+}
+
+/*Caja con algunos botones exepto dominio*/
+.box__botones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.boton__fields__submit {
+    width: 35%;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}

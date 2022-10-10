@@ -1,0 +1,19 @@
+.header_terminos{
+    font-family: 'Gemunu Libre', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.box__header__terminos{
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background: rgb(4, 141, 187);
+}
+.title__terminos{
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 0%;
+    margin: 3%;
+    color: aliceblue;
+}

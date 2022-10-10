@@ -1,0 +1,38 @@
+.main_terminos_condiciones{
+    height: 70rem;
+    display: flex;
+    justify-content: center;
+}
+.main__terminos{
+    justify-content: center;
+    width: 420px;
+    display: flex;
+    padding: 1rem;
+    background: rgb(4, 141, 187);
+}
+.box__main__terminos{
+   display: flex;
+   flex-direction: column;
+   width: 418px;
+   background-color: #fff;
+   color: rgb(59, 54, 54);
+   font-size: 1.2rem;
+   text-align: justify;
+   padding: 1%;
+}
+.terminos__title{
+    font-size: .8rem;
+    text-align: center;
+}
+.terminos__text{
+    margin-top: 1rem;
+    font-size: .5em;
+    width: 415px;
+    height: 35rem;    
+    line-height: 1.5em;
+}
+.main__terminos__boton{
+    display: flex;
+    justify-content: center;
+    margin-top: 28rem;
+}
