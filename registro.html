@@ -32,27 +32,31 @@
                             <button class="main__boton__subirfoto">Borrar</button>
                         </div>
                     </div>
-                    <div class="box__campos_registro">
+                    <form class="box__campos_registro">
                         <h4 class="title_field">Nombre:</h4>
-                        <input type="text">
+                        <input type="text" placeholder="escriba su nombre aqui.." required>
                         <h4 class="title_field">Apellido:</h4>
-                        <input type="text">
+                        <input type="text" placeholder="escriba su apellido aqui.." required>
                         <h4 class="title_field">Número Documento:</h4>
-                        <input type="text">
+                        <input type="text" placeholder="ingrese su documento.." required pattern="^[0-9]+$" maxlength="9" title="solo numeros hasta 9 cifras sin espacios">
+                        <h4 class="title_field">Contraseña:</h4>
+                        <input id="pass" type="password" placeholder="ingrese su contraseña" required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$" title="Mínimo ocho caracteres, al menos una letra mayúscula, una letra minúscula y un número:">
+                        <h4 class="title_field">Repita contraseña:</h4>
+                        <input type="password" placeholder="repita la contraseña" required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$" title="Mínimo ocho caracteres, al menos una letra mayúscula, una letra minúscula y un número:">
                         <h4 class="title_field">Correo electronico:</h4>
-                        <input type="text">
+                        <input type="email" placeholder="e-mail.." required>
                         <h4 class="title_field">Dominio</h4>
-                        <input type="text">
+                        <input type="text" required placeholder="su patente sin espacios.." <!-- pattern="^([a-zA-Z]{3})([0-9]{3})" --> title="">
                         <button class="boton__fields__dominio">Agregar + Dominios</button>
                         <div class="box__botones">
                             <button class="boton__fields type=" reset">Borrar</button>
                             <a href="terminos.html">
                                 <h4 class="title_field_condiciones">*Terminos y condiciones del servicio</h4>
                             </a>
-                            <label for="">Acepto<input class="boton__radio" type="radio"></label>
+                            <label for="">Acepto<input class="boton__radio" type="radio" required></label>
                         </div>
                         <button class="boton__fields__submit" type="submit">Enviar</button>
-                    </div>
+                    </form>
                 </div>
             </div>
         </main>
@@ -62,6 +66,7 @@
                     Team | gruponocode@gmail.com 💻</a>
             </div>
         </footer>
+        <script src="js/validaciones.js"></script>
     </body>
 
 </html>
